@@ -29,9 +29,9 @@ RUN easy_install web.py
 RUN mkdir /usr/bigface
 ADD static /usr/bigface
 ADD templates /usr/bigface
-ADD ConfigManager.py /usr/bigface
-ADD index.py /usr/bigface
-ADD login.conf /usr/bigface
+ADD ConfigManager.py /usr/bigface/
+ADD index.py /usr/bigface/
+ADD login.conf /usr/bigface/
 # Expose ports
 EXPOSE 80
 # Set the default command to execute
